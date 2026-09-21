@@ -1,0 +1,35 @@
+
+
+EXI-G-6	P	=> Voir avec Brice ou conseil ou suppression.
+EXI-ORG-1   => A revoir.
+EXI-ORG-3	=> Remplacer équipe de dev par équipe projet et voir par rapport à BnB et Camping.
+EXI-ORG-6   => A reformuler sur la responsabilité chaine primaire en tant que source de vérité
+EXI-ORG-9	=> Brice ?
+EXI-ORG-10  => Brice ?
+EXI-ORG-11 à 18	=> Idem => A reformuler le projet est responsable de la qualité de son code et de la prise en compte des vulnérabilité. En gros CPiN remonte des indicateurs, charge au projet de les évaluer et de les prendre en compte ou d'accepter le risque
+Ajouter une règle sur la mise en place de l'alerting : CPiN met en place l'outillage, le projet doit l'implémenter dans son contexte.
+EXI-ARCH-1	: suppression, on n'impose pas de langage.
+EXI-ARCH-2 : à reformuler
+EXI-ARCH-3 : à reformuler CPiN permet de modulariser les déploiements.
+EXI-ARCH-4 : à reformuler utilisation du stockage objet du MI conseillé
+EXI-ARCH-5 : à reformuler : se baser sur des images / charts issue de communautées actives. une autre exigence pour séparer la configuration de l'application (configMap / secret / env. var)
+EXI-ARCH-6 : à reformuler : se limiter à choix des images de bases, reste le choix du projet mais recommandations. + ajouter la possibilité de faire du multi stage build mais c'est un autre sujet.
+EXI-ARCH-7 : Intégrer les certifiats de la PKI interne du MI.
+EXI-ARCH-8 : à reformuler
+EXI-ARCH-9 : à supprimer ou reformuler sur la partie backup à faire si pas déjà dit ailleurs.
+EXI-ARCH-10 : à reformuler (ou supprimer ?) l'offre CPIN se prend dans son ensemble ?
+EXI-ARCH-11 : à supprimer
+EXI-ARCH-12 : à reformuler, fortement conseillé d'utiliser les probes
+EXI-ARCH-13 : à supprimer doublon EXI-ARCH-10
+EXI-ARCH-14 : à découper : séparation des flux/usages | privilégier https | 
+EXI-ARCH-15 à EXI-ARCH-17 : à supprimer
+EXI-ARCH-18 : découper et voir ce que l'on conserve. 
+EXI-ARCH-20 : à supprimer
+EXI-ARCH-21 : à supprimer
+EXI-ARCH-23 : log sur la sortie standard + log suffisant pour l'exploitation de l'appli (par le projet) => Format de log du C2MI à vérifier.
+EXI-ARCH-24 : Le projet est responsabile de son expoitation et des performances.
+EXI-ARCH-26 : vérifier si pas déjà dit ailleurs
+EXI-ARCH-27 : à séparer en 2 règles.
+EXI-DATA-1 : à supprimer responsabilité projet.
+EXI-DATA-2 : de la reponsabilité projet, à reformuler.
+EXI-DATA-3 et EXI-DATA-4 : à supprimer hors CPiN
